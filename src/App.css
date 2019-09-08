@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Source+Sans+Pro:400,600&display=swap');
+/*
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+*/
+.App{
+    min-height: 800px;
+}
+.text_info{
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+.back_menu{
+    color: rgba(0,0,0, 0.8);
+}
+.back_menu:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.back_menu span{
+    color: #aeaeae;
+    font-size: 20px; 
+    margin-right: 10px;
+}
+.product_info h2{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 42px;
+}
+.product_info p{
+    margin-top: -10px;
+    color: rgba(0,0,0, 0.6);
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+
+/**DETAILS**/
+.price{
+    font-family: 'Source Sans Pro', sans-serif;  
+    font-weight: 600;
+    font-size: 30px;
+}
+.price .old_price{
+    color: rgba(0,0,0, 0.4);
+}
+
+/*DL DD DT tags*/
+dl {
+    margin-bottom:50px;
+}
+ 
+dl dt {
+    background:rgba(0,0,0, 0.4);
+    color:#fff;
+    float:left; 
+    font-weight:bold; 
+    margin-right:10px; 
+    padding:5px;  
+    width:100px; 
+}
+ 
+dl dd {
+    margin:2px 0; 
+    padding:5px 0;
+}

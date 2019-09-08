@@ -1,0 +1,24 @@
+.button{
+    background: #3767b3;
+    color: #fff;
+    padding: 15px 50px 10px 50px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;  
+    border: none;
+    border-radius: 3px;
+    transition: all 100ms;
+}
+.button:hover{
+    background-color: #2a508c;
+}
+.button:active{
+    background-color: #102952;
+}
+
+/* POPUP*/
+.popup{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
