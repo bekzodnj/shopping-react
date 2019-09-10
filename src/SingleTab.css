@@ -1,11 +1,14 @@
 li{
     font-family: 'Source Sans Pro', sans-serif;   
-    font-weight: 400;
+    font-weight: 700;
+    padding: 0 20px;
     padding-bottom: 15px;
-    
+    color: #ababab;
+}
+li:hover{
+    cursor: pointer;
 }
 .active_tab{
-   
-    font-weight: 700;
+    color: #424242;
     border-bottom: solid 3px #3767b3;
 }

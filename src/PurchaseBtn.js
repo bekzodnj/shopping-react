@@ -28,7 +28,7 @@ class PurchaseBtn extends Component{
         
         const btn_state = after_wait ? "VIEW IN CART" : "ADD TO CART";
 
-        const message = after_wait ? <div class="alert alert-info w-50 my-3" role="alert">
+        const message = after_wait ? <div className="alert alert-info w-50 my-3" role="alert">
                                             Item added to Cart
                                         </div> : undefined;
        
@@ -39,7 +39,7 @@ class PurchaseBtn extends Component{
                <button className="button"
                  onClick = {this.handleClick}
                  >
-                     <label>{loading ? "LOADING..." : btn_state}</label>
+                    {loading ? "LOADING..." : btn_state}
                 </button>
 
                 

@@ -15,7 +15,7 @@ class SingleTab extends Component{
     }
    
     render(){
-        let className = "mr-5";
+        let className = "";
 
         const {label, activeTab} = this.props;
         

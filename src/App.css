@@ -32,6 +32,10 @@
     color: rgba(0,0,0, 0.6);
     font-family: 'Source Sans Pro', sans-serif;  
 }
+.description_text{
+    padding-top: 2%;
+    padding-right: 7%;
+}
 
 /**DETAILS**/
 .price{
@@ -41,6 +45,17 @@
 }
 .price .old_price{
     color: rgba(0,0,0, 0.4);
+}
+.old_price {
+    position: relative;
+}
+.old_price::after {
+    border-bottom: 2px solid #9f9f9f;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 55%;
 }
 
 /*DL DD DT tags*/

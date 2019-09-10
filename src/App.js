@@ -6,8 +6,7 @@ import PurchaseBtn from './PurchaseBtn';
 
 export default class App extends React.Component{
     state = {
-        selectValue: "1",
-        imgUrl: "./images/img1.jpg",
+        selectValue: "1"
     }
     handleChange = e =>{
         this.setState({
@@ -39,7 +38,7 @@ export default class App extends React.Component{
     
                             <Tabs>
                                 <div label="DESCRIPTION">
-                                        <p>
+                                        <p className="description_text">
                                         Lorem ipsum dolor sit amet consectetur adipisicing 
                                         elit. Odit voluptatibus alias qui labore dignissimos
                                          natus animi architecto incidunt sed, officia 
